@@ -2,6 +2,10 @@
   "name": "czerka-dev-tools",
   "version": "1.0.0",
   "description": "A command line interface (CLI) used to aid in the development of applications made by Czerka Corporation.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czerkacorp/czerka-dev-tools"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

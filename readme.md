@@ -1,6 +1,6 @@
 # Czerka Developer Tools
 
-A command line interface (CLI) used to aid in the development of applications made by Czerka Corporation."
+A command line interface (CLI) used to aid in the development of applications made by Czerka Corporation.
 
 # Installation
 
@@ -39,12 +39,12 @@ $ czerka:generatekey 10
 
 # Contributing
 
-If you would like to contribute towards Mainframe's development, please follow these steps:
+If you would like to contribute towards Czerka Development tools development, please follow these steps:
 
-- Fork the Mainframe repository on Github
+- Fork the czerka-dev-tools repository on Github
 - Make your changes, commit and push to your fork's master
-- Open a pull request against the Mainframe repository
+- Open a pull request against the czerka-dev-tools repository
 
 # Other
 
-If you have any feature requests, questions or concerns, please open an issue in the Mainframe repository.
+If you have any feature requests, questions or concerns, please open an issue in the czerka-dev-tools repository.
