@@ -1,6 +1,6 @@
 {
   "name": "@czerkacorp/czerka-dev-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command line interface (CLI) used to aid in the development of applications made by Czerka Corporation.",
   "repository": {
     "type": "git",
