@@ -1,0 +1,14 @@
+{
+  "name": "czerka-dev-tools",
+  "version": "1.0.0",
+  "description": "A command line interface (CLI) used to aid in the development of applications made by Czerka Corporation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "czerka:generatekey": "./czerka-generate-secret.js"
+  },
+  "author": "Czerka Corporation",
+  "license": "MIT"
+}
