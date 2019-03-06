@@ -26,7 +26,7 @@ If you have a version of NPM that comes with NPX, you can run the commands witho
 
 - czerka:generatekey
 
-Generate a secret key to be used for signing JWT, password hashing or any number of other reasons you may need a secret key for. Jedi and Sith flavored for extra security.
+Generate a secret key to be used for signing JWTs, password hashing or any number of other reasons you may need a secret key for. Jedi and Sith flavored for extra security.
 
 ```bash
 $ czerka:generatekey 10
@@ -39,7 +39,7 @@ $ czerka:generatekey 10
 
 # Contributing
 
-If you would like to contribute towards Czerka Development tools development, please follow these steps:
+If you would like to contribute towards czerka-dev-tools development, please follow these steps:
 
 - Fork the czerka-dev-tools repository on Github
 - Make your changes, commit and push to your fork's master
