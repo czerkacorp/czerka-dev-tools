@@ -9,7 +9,7 @@ There are two ways czerka-dev-tools can be installed.
 ## NPM Install
 
 ```bash
-npm i -g czerka-dev-tools
+$ npm i -g czerka-dev-tools
 ```
 
 This will install the package globally on your machine so that you can use the commands in any directory, at any time.
@@ -17,14 +17,15 @@ This will install the package globally on your machine so that you can use the c
 ## NPX
 
 ```bash
-npx <command>
+$ npx -p @czerkacorp/czerka-dev-tools -c "<command>"
 ```
 
-If you have a version of NPM that comes with NPX, you can run the commands without having to install the package globally. Just prefix the command with `npx` and it will locate the package and run the command for you without the need to run `npm i -g`.
+If you have a version of NPM that comes with NPX, you can run the commands without having to install the package globally. Run the command above, replacing `<command>` with one of the commands below and NPX will locate the package and run the command for you without the need to install via `npm i -g`.
 
 # Current Commands
 
-- czerka:generatekey
+- `czerka:generatekey <length>`
+- `npx -p @czerkacorp/czerka-dev-tools -c "czerka:generatekey <length>"`
 
 Generate a secret key to be used for signing JWTs, password hashing or any number of other reasons you may need a secret key for. Jedi and Sith flavored for extra security.
 
