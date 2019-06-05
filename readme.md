@@ -4,12 +4,12 @@ A command line interface (CLI) used to aid in the development of applications ma
 
 # Installation
 
-There are two ways czerka-dev-tools can be installed.
+There are two ways czerka-dev-tools can be installed. Use whichever works best for you.
 
 ## NPM Install
 
 ```bash
-$ npm i -g czerka-dev-tools
+$ npm i -g @czerkacorp/czerka-dev-tools
 ```
 
 This will install the package globally on your machine so that you can use the commands in any directory, at any time.
@@ -22,7 +22,7 @@ $ npx -p @czerkacorp/czerka-dev-tools -c "<command>"
 
 If you have a version of NPM that comes with NPX, you can run the commands without having to install the package globally. Run the command above, replacing `<command>` with one of the commands below and NPX will locate the package and run the command for you without the need to install via `npm i -g`.
 
-# Current Commands
+# Commands
 
 - `czerka:generatekey <length>`
 - `npx -p @czerkacorp/czerka-dev-tools -c "czerka:generatekey <length>"`
